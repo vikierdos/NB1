@@ -7,7 +7,7 @@ public class GitBranchNB {
     }
 
     private static void fv() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("Static fv");
     }
     
 }
