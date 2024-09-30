@@ -10,4 +10,8 @@ public class GitBranchNB {
         System.out.println("Nem static függvény");
     }
     
+    void eljaras(){
+        
+    }
+    
 }
