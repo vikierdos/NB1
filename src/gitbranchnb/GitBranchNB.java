@@ -3,11 +3,11 @@ package gitbranchnb;
 public class GitBranchNB {
 
     public static void main(String[] args) {
-        fv();
+        new GitBranchNB().fv();
     }
 
-    private static void fv() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    private void fv() {
+        System.out.println("Nem static függvény");
     }
     
 }
