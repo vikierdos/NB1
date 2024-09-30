@@ -3,11 +3,15 @@ package gitbranchnb;
 public class GitBranchNB {
 
     public static void main(String[] args) {
-        fv();
+        new GitBranchNB().fv();
     }
 
-    private static void fv() {
-        System.out.println("Static fv");
+    private void fv() {
+        System.out.println("Nem static függvény");
+    }
+    
+    void eljaras(){
+        
     }
     
 }
